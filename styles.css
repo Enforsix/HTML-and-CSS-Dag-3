@@ -9,8 +9,8 @@ body {
 header {
   border-width: 10px;
   border-style: solid;
-  border-color: black;
-  /*Man vill få en hvot rammen om en ikke endere "margin" i <body> */
+  border-color: #8A716A;
+  /*Man vill få en hvit rammen om en ikke endere "margin" i <body> */
 }
 
 ul {
@@ -28,17 +28,17 @@ ul {
 
   section {
     height: 100vh;
-    background-color: rgb(78, 72, 142);
+    background-color: #197BBD;
   }
 
-  /* Husk "." nård eet er en clase */
+  /* Husk "." når det er en clase */
   .HomeSection {
-    background-color: rgb(128, 128, 187);
+    background-color: #125E8A;
   }
 
   /* # når man bruker ID */
   #OmMeg {
-    background-color: rgb(196, 196, 140);
+    background-color: #204B57;
   }
 
   footer {
@@ -47,3 +47,6 @@ ul {
     color: black;
   }
 
+  p {
+    padding: 10px;
+  }
